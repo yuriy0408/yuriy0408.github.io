@@ -1,0 +1,143 @@
+/* Basic settings */
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1, h2 {
+	color: #47adcb;
+}
+
+main {
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+
+/* Navigation panel */
+
+.navbar-brand img {
+	width: 120px;
+}
+
+.navbar-nav li {
+	padding: 5px 15px;
+	height: 47px;
+}
+
+.navbar-nav li:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Header */
+
+.header {
+	width: 100%;
+	height: 600px;
+	background: url(../img/main_logo.jpg) center center;
+	background-size: cover;
+}
+
+.header h2 {
+	text-shadow: 0px 2px #222;
+	text-align: left;
+	font-size: 42px;
+}
+
+.header-caption {
+	background: none;
+	position: absolute;
+	width: 850px;
+	max-width: 100%;
+	font-size: 18px;
+	top: 150px;
+}
+
+.header-caption p {
+	color: white;
+}
+
+/* Main block */
+
+#about, .screenshots-header {
+    text-align: center;
+}
+
+#heading, #screenshots, #features, #download {
+	text-align: center;
+	padding: 50px 0;
+}
+
+hr {
+	margin-bottom: 70px;
+	border: none;
+	background-color: lightgrey;
+	height: 2px;
+}
+
+#about div.row {
+	padding: 50px 0;
+}
+
+.main-text {
+	text-align: left;
+}
+
+.img, #screenshots img  {
+	max-width: 100%;
+}
+
+#download button {
+	height: 40px;
+	padding: 5px 20px;
+}
+
+.right-btn {
+	margin-left: 7px;
+}
+
+/* Footer Style */ 
+
+footer {
+	color: grey;
+	padding: 10px;
+}
+
+footer input {
+	margin-right: 5px;
+    width: 250px;
+    border-radius: 5px;    
+}
+
+.social {
+	text-align: center;
+}
+
+.social p {
+	margin: 10px auto;
+}
+
+.social-item{
+	margin: 10px 0;
+}
+
+@media (min-width: 1400px) {
+	.img {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 991px) {
+	#screenshots img, .img {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 575px) {
+	.header-caption {
+		width: 90%;
+	}
+	footer input {
+		width: 190px;
+	}	
+}
