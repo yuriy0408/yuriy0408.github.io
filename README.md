@@ -4,4 +4,4 @@
 
 [Project2](https://yuriy0408.github.io/Project2/ "Мой второй проект")
   
-[Project2](https://yuriy0408.github.io/Project3/ "Мой третий проект")
+[Project3](https://yuriy0408.github.io/Project3/ "Мой третий проект")
